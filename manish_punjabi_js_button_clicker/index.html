@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button_Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar-->
+    <div class = "navbar">
+        <h1 class = "header"> Dojonary </h1>
+        <input class = "search" type="text" placeholder="Search"> 
+        <button class = 'logbtn' onclick = "logoff(this)"> Login</button>
+    </div>
+
+    <!--body of the page -->
+    <div class = "content"> 
+        <!--left side of the page-->
+        <div class = "left">
+            <!--left box one-->
+            <div class = "box1">
+                <!--left side of box one-->
+                <div class = "onft">
+                    <h2>ninja</h2>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class = "likebtn" onclick = "pop(this)">13 likes</button>
+                </div>
+                <div class = "def">
+                    <p>A practitioner skilled in the</p>
+                    <p><w>Japanese</w> art of <w>ninjutsu</w></p>
+                </div>
+            </div>
+            <!--end of left card one-->
+            <!--left box two-->
+            <div class = "box2">
+                <!--left side of box two-->
+                <div class = "onft">
+                    <h2>ninja</h2>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class = "likebtn" onclick = "pop(this)">37 likes</button>
+                </div>
+                <!--right side of box two-->
+                <div class = "def">
+                    <p>A <w>programmer</w> who breaks</p>
+                    <p>down problems with <w>zen</w>-like</p>
+                    <p>focus</p>
+                </div>
+            </div>
+            <!--end of left card two-->
+        </div>
+        <!--end of left side-->
+        <div>
+            <div class ="box3">
+                <h2>Dojonary is</h2>
+                <h2>defined by YOU</h2>
+                <button class = "addef" onclick = "def(this)">Add Definition</button>            
+            </div>
+        </div>
+    </div> 
+</body>
+<script src = "script.js"></script>
+</html>

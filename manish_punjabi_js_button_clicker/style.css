@@ -1,0 +1,67 @@
+*{
+font-family: monospace;
+margin:0px;
+}
+body{
+    margin: 0px 300px 0px 300px;
+}
+.def{
+    padding: 30px;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 8px 50px 8px 50px;
+    margin: 0 auto;
+}
+.search{
+    border: 2px solid black;
+    padding: 0px 40px 0px 40px;
+}
+
+.logbtn{
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    border: solid black;
+    box-shadow: 3px 3px black;
+    padding: 0px 10px 0px 10px;
+}
+
+/*content*/
+.box1, .box2, .box3{
+    border: 2px solid black;
+    padding: 15px;
+}
+.box1, .box2{
+    margin: 30px 30px 30px 0px;
+}
+.box3{
+    margin: 30px 0px 30px 0px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.likebtn, .addef{
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin: 40px 0px 0px 0px;
+}
+.likebtn{
+    background-color: gold;
+}
+.addef{
+    background-color: greenyellow;
+}
+w{
+    color: blue;
+    text-decoration: underline;
+}
+.onft, .def{
+    display: inline-block;
+    vertical-align: middle;
+}
