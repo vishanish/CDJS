@@ -1,4 +1,4 @@
-var vid = document.getElementById("myVideo");
+var vid = document.querySelector("myVideo");
 vid.muted = true;
 function playVid(){
     vid.play();

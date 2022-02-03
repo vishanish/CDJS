@@ -1,0 +1,204 @@
+/*
+top nav bar
+*/
+img{
+    border-radius: 50%;
+}
+.topnav {
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    align-items: center;
+    border: solid black;
+}
+.navtitle{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    margin-left:auto;
+}
+.btn{
+    background-color: turquoise;
+    color: white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    margin-left: auto;
+}
+.active{
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*
+user card
+*/
+.main {
+    height: 350px;
+    width: 450px;
+    background-color: lightgray;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border: solid black;
+}
+.sidetop {
+    height: 100px;
+    width: 450px;
+    background-color: cyan;
+}
+.subcontent{
+    padding: 50px;
+}
+.manish{
+    height: 90px;
+    width: 100px;
+}
+#citymarker{
+    display:inline-flex;
+    margin: 0px 0px 10px 0px;
+}
+.marker{
+    height:20px;
+    width:15px;
+}
+p{
+    margin:0px;
+    font-weight: bold;
+}
+.gear{
+    height:20px;
+    width:20px;
+}
+#profilegear{
+    display:flex;
+    text-decoration: underline;
+    color:blue;
+    margin: 10px 0px 0px 0px;
+}
+/*
+Connection Request
+*/
+.main2 {
+    height: 310px;
+    width: 320px;
+    background-color: lightgray;
+    margin: 10px;
+    display: inline-flex;
+    border: solid black;
+}
+.sidetop2 {
+    height: 80px;
+    width: 320px;
+    background-color: cyan;
+}
+.subcontent2{
+    padding: 5px 10px 0px 10px;
+}
+.personrequest1, .personrequest2{
+    height: 60px;
+    width: 70px;
+}
+.personrequest1, .personrequest2, .phils, .todds, .request1, .request2, .reject1, .reject2{
+    display: inline-block;
+    vertical-align: middle;
+}
+.phils, .todds{
+    font-size:x-large;
+}   
+#request1, #request2{
+    margin: 20px;
+}
+.request1, .request2, .reject1, .reject2{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+.requestnumber{
+    background-color: white;
+    padding: 0px 25px 0px 25px;
+    border-radius: 50%;;
+    border: solid black;
+}
+.requestnumber, .title2{
+    display: inline-flex;
+}
+/*Education*/
+.edate{
+    color: gray;
+}
+.bottomside1 {
+    height: 350px;
+    width: 420px;
+    background-color: lightgray;
+    margin: 10px;
+    display: inline-flex;
+    border : solid black;
+}
+.bottomsubcontent1 {
+    height: 60px;
+    width: 450px;
+    background-color: cyan;
+    padding: 10px 15px 0px 15px;
+}
+/*Your Connections*/
+.socialnumber{
+    background-color: white;
+    padding: 0px 25px 0px 25px;
+    border-radius: 50%;
+    margin: 0px 0px 20px 0px;
+    border: solid black;
+}
+.socialnumber, .yourconnectionbox{
+    display: inline-flex;
+}
+.bottomside2 {
+    height: 580px;
+    width: 350px;
+    background-color: lightgray;
+    margin: 10px;
+    display: inline-flex;
+    vertical-align: top;
+    border: solid black;
+}
+.bottomsubcontent2 {
+    height: 80px;
+    width: 350px;
+    background-color: cyan;
+    padding: 10px 15px 0px 15px;
+}
+.connection{
+    height: 60px;
+    width: 60px;
+    margin: 5px 10px 5px 10px;
+}
+.viewmore{
+    color:blue;
+    text-decoration: underline;
+    justify-content: center;
+}
+#view-more{
+    margin: 6px 0px 0px 0px;
+    border: 1px solid black;
+}
+.connection, .adriens, .annes, .alaynes, .arrys{
+    display: inline-block;
+    vertical-align: middle;
+}
+.adriens, .annes, .alaynes, .arrys{
+    font-size: x-large;
+}
+
+.circleshadow{
+    box-shadow: 2px 2px black;
+    position: relative;
+    bottom: 2px;
+    cursor: pointer;
+}

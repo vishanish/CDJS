@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+body{
+    margin:0px 230px;
+}
+/*navbar*/
+.navbar{
+    background-color: dodgerblue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 80px;
+}
+.navtitle{
+    color:white;
+    font-size: 50px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding:20px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.bod{
+    margin: 0 90px;
+}
+
+/*City title temperature*/
+.cityname{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0px;
+    border-bottom: 3px solid black;
+}
+h2{
+    font-size: 30px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+}
+
+select{
+    margin: 0px 10px;
+}
+
+/* Four Day Forecast*/
+.weather{
+    justify-content: space-between;
+    display:flex;
+}
+.today, .tomorrow, .friday, .saturday{
+    background-color: lightgray;
+    height:230px;
+    width:180px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: large;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+img{
+    margin-bottom:20px;
+}
+
+img[alt="somerain"],img[alt="somesun"], img[alt="someclouds"]{
+    border-radius: 50%;    width:50%;
+}
+.temperature{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.cold{
+    color:dodgerblue;
+}
+.hot{
+    color:firebrick;
+}
+.hot, .cold{
+    display: flex;
+}
+/*Cookiespopup*/
+
+
+.cookiespopup{
+    width: 770px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+
+.head{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.message{
+    width: 500px;
+}
+.readmore{
+    color:dodgerblue;
+    text-decoration: underline;
+}
+button{
+    background-color: dodgerblue;
+    color:white;
+    padding: 10px;
+}

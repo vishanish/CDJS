@@ -1,0 +1,48 @@
+*{
+ padding:0px;
+ margin:0px;
+ font-family: monospace;
+}
+body{
+    margin: 0px 300px 0px 300px;
+}
+.pagename{
+    background-color: gray;
+    padding: 20px;
+}
+.feed{
+    display:flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    align-items: top;
+}
+.usercard, .card1, .card2, .card3{
+    border: 2px solid black;
+    padding:20px;
+    margin: 20px;
+}
+.usercard{
+    height: 300px;
+}
+img{
+    height:100px;
+    border-radius: 50%;
+}
+hyp{
+   color: blue;
+   text-decoration: underline; 
+}
+img, p, h2, button{
+    padding: 10px;
+}
+button{
+    background-color: goldenrod;
+}
+.boxshade{
+    box-shadow: 2px 2px black;
+    position: relative;
+    bottom: 2px;
+    cursor: pointer;
+}

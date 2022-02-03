@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Making Connection</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--top-nav bar-->
+        <div class="topnav">
+            <h1 class="navtitle">Profile</h1>
+            <a href="#">Home</a>
+            <a href="#" class="active">My Profile</a>
+            <a href="#">Find Connections</a>
+            <button class="btn">Sign Out</button>
+        </div>
+        <!--User Card-->
+        <div class = "content">
+        <div class = "top">
+        <div class="main">
+            <div class="sidetop">
+                <div class = subcontent>
+                    <img class = "manish" src="images/Manish Punjabi.jpg" alt="Manish">
+                    <h2 class="name">Manish Punjabi</h2>
+                    <div id = "citymarker">
+                        <img class="marker" src="icons/map-marker.png" alt="map-marker">
+                        <p class="city">Campbell</p>
+                    </div>
+                    <p class = "skills-1">Developer | Engineer | Problem Solver<p>
+                    <p class = "skills-2">Master of shadows and the Internet</p>
+                    <div id="profilegear">
+                        <img class="gear" src="icons/gear.png" alt="gear">
+                        <p class="profile" onclick = "changename(this)">edit profile</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Connection Request-->
+        <div class="main2">
+            <div class="sidetop2">
+                <div class = "subcontent2">
+                    <div class = "requestnumber">
+                    <h2 class = "request-number">  2  </h2>
+                    </div>
+                    <h2 class="title2">Connection Requests</h2>
+                    <div id = "request1">
+                        <img class="personrequest1" src="images/todd-s.jpg" alt="todd-s-photo" >
+                        <p class="todds">Todd S</p>
+                        <img class="request1" src="icons/accept-circle.png" alt="accept-request-1" onclick = "accept1(this)" onmouseover="addShade(this)" onmouseout="removeShade(this)">
+                        <img class="reject1" src="icons/close-circle.png" alt="reject-request-1" onclick = "reject1(this)" onmouseover="addShade(this)" onmouseout="removeShade(this)">
+                    </div>
+                    <div id = "request2">
+                        <img class="personrequest2" src="images/phil-s.jpg" alt="phil-s-photo">
+                        <p class="phils">Phil S</p>
+                        <img class="request2" src="icons/accept-circle.png" alt="accept-request-1" onclick = "accept2(this)" onmouseover="addShade(this)" onmouseout="removeShade(this)">
+                        <img class="reject2" src="icons/close-circle.png" alt="reject-request-1" onclick = "reject2(this)" onmouseover="addShade(this)" onmouseout="removeShade(this)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--bottom-->
+    <div class = "bottom">
+        <!--education-->
+        <div class= "bottomside1">
+            <div class = "bottomsubcontent1">
+                <h2 class ="education-box">Education</h2>
+                <div class ="education">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <p class = "edate"> January 2022 - April 2022</p>
+                    <h4>Triple black belt in Python, MERN, and C#...</h4>
+                </div>
+            </div>
+        </div>
+        <!--your connection-->
+        <div class = "bottomside2">
+            <div class = bottomsubcontent2>
+                <div class = "socialnumber">
+                    <h2 class = "social-number">500+</h2>
+                </div>
+                <h2 class ="yourconnectionbox">Your Connections</h2>
+                <div class = "connections">
+                <div id = "connection1">
+                    <img class="connection" src="images/adrien-s.jpg" alt="adrien-s-photo">
+                    <p class="adriens">Adrien S</p>
+                </div>
+                <div id = "connection2">
+                    <img class="connection" src="images/anne-s.jpg" alt="anne-s-photo">
+                    <p class="annes">Anne S</p>
+                </div>
+                <div id = "connection3">
+                    <img class="connection" src="images/alayne-s.jpg" alt="alayne-s-photo">
+                    <p class="alaynes">Alayne S</p>
+                </div>
+                <div id = "connection-4">
+                    <img class="connection" src="images/arry-s.jpg" alt="arry-s-photo">
+                    <p class="arrys">Arry S</p>
+                </div>
+                </div>
+                <div id = "view-more">
+                    <a href="#" class="viewmore">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
